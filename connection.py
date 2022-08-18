@@ -14,9 +14,6 @@ import requests
 warnings.filterwarnings('ignore')
 import time
 
-BOT_TOKEN = "2042514901:AAHZkg3NyCMix_ThkEM5Tn6b4QX-h3QCoB0"
-BOT_ID = "-719591358"
-BID = '-1001655543039'
 
 def telegram_bot_sendtext(bot_message, bot_id=BOT_ID, bot_token=BOT_TOKEN):
     bot_token = bot_token
@@ -28,10 +25,6 @@ def telegram_bot_sendtext(bot_message, bot_id=BOT_ID, bot_token=BOT_TOKEN):
 
 
 def tele_message(m1):
-    BOT_TOKEN2 = "2096544605:AAGOEKmWYKWLnjHJ53XJjrNvDedqLkD0qAM"
-    BOT_ID2 = "-1001714579280"
-    BOT_TOKEN1 = '2042514901:AAHZkg3NyCMix_ThkEM5Tn6b4QX-h3QCoB0'
-    BOT_ID1 = '-1001664194044'
     telegram_bot_sendtext(m1)
     telegram_bot_sendtext(m1, bot_id=BOT_ID1, bot_token=BOT_TOKEN1)
     telegram_bot_sendtext(m1, bot_id=BOT_ID2, bot_token=BOT_TOKEN2)
