@@ -5,17 +5,17 @@ import warnings
 warnings.filterwarnings('ignore')
 def get_client():
     cred = {
-        "APP_NAME": '5P56247837',
-        "APP_SOURCE": 10597,
-        "USER_ID": "kaxDKYsL0q4",
-        "PASSWORD": "YlZy38Q1ApY",
-        "USER_KEY": "u7hJKUc23ianEEyK2vOlB8RgC2yte5lY",
-        "ENCRYPTION_KEY": "WYuIFi1nn3Rqp36Ig4fh2uASw0apihkq"
+        "APP_NAME": 
+        "APP_SOURCE": 
+        "USER_ID":
+        "PASSWORD": 
+        "USER_KEY": 
+        "ENCRYPTION_KEY": 
     }
 
-    email = "nikumbh.akshay89@gmail.com"
-    passwd = "Avenger@0619"
-    dob = "19890507"
+    email = 
+    passwd = 
+    dob = 
     client = FivePaisaClient(email=email, passwd=passwd, dob=dob,cred=cred)
     print(client)
     client.login()
